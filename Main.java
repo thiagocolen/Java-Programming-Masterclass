@@ -41,6 +41,14 @@ class Main {
     System.out.println("Long Minimum Value = " + myMinLongValue);
     System.out.println("Long Maximun Value = " + myMaxLongValue);
     System.out.println("------------------------------------------------- \n"); 
-        
+    
+    System.out.println("Casting in Java \n"); 
+    int myNewIntValue = (myMinIntValue / 2);
+    System.out.println("myNewIntValue Value = " + myNewIntValue);
+    byte myNewByteValue = (byte) (myMinByteValue / 2);
+    System.out.println("myNewByteValue Value = " + myNewByteValue);
+    short myNewShortValue = (short) (myMinShortValue / 2);
+    System.out.println("myNewShortValue Value = " + myNewShortValue);
+    System.out.println("------------------------------------------------- \n"); 
   } 
 } 
