@@ -1,5 +1,5 @@
-class primitiveTypes {
-  primitiveTypes() {
+class PrimitiveTypes {
+  public static void main(String args[]) {
     System.out.println("\n \n");
     System.out.println("Java Programming Masterclass #1 - Primitive Types");
     System.out.println("------------------------------------------------- \n");
@@ -10,7 +10,7 @@ class primitiveTypes {
     System.out.println("Integer Minimum Value = " + myMinIntValue);
     System.out.println("Integer Maximun Value = " + myMaxIntValue);
     System.out.println("\n");
-    
+
     System.out.println("Busted Minimum Value = " + (myMinIntValue - 1));
     System.out.println("Busted Maximun Value = " + (myMaxIntValue + 1));
     System.out.println("\n");
@@ -44,10 +44,10 @@ class primitiveTypes {
 
     float myFloatValue = 5.25f;
     System.out.println("put f at final of number - myFloatValue = " + myFloatValue + "\n");
-    
+
     float myAnotherFloatValue = (float) 5.25;
     System.out.println("or put (float) at final of number - myAnotherFloatValue = " + myAnotherFloatValue + "\n");
-    
+
     float myMinFloatValue = Float.MIN_VALUE;
     float myMaxFloatValue = Float.MAX_VALUE;
     System.out.println(":: float 32 bits");
@@ -60,7 +60,7 @@ class primitiveTypes {
 
     double myAnotherDoubleValue = (double) 5.25;
     System.out.println("or put (double) before the number - myAnotherDoubleValue = " + myAnotherDoubleValue + "\n");
-    
+
     double myMinDoubleValue = Double.MIN_VALUE;
     double myMaxDoubleValue = Double.MAX_VALUE;
     System.out.println(":: double 64 bits");
@@ -77,7 +77,7 @@ class primitiveTypes {
     char myAnotherCharValue = '\u04C1';
     System.out.println("Char Unicode Value = " + myAnotherCharValue);
     System.out.println("\n");
-    
+
     System.out.println("emojidb.org/java-emojis ");
     char myEmojiCharValue = '☕';
     System.out.println("Emoji Char Value = " + myEmojiCharValue);
@@ -91,10 +91,10 @@ class primitiveTypes {
     String myStringValue = "This is a string";
     System.out.println("String Value = " + myStringValue);
     System.out.println("------------------------------------------------- \n");
-    
+
     System.out.println("\n");
     System.out.println("\n");
-    
+
     System.out.println("Java Programming Masterclass #1 - Casting in Java");
     System.out.println("------------------------------------------------- \n");
     int myNewIntValue = (myMinIntValue / 2);
