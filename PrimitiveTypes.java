@@ -1,5 +1,5 @@
 class PrimitiveTypes {
-  public static void main(String args[]) {
+  public void main() {
     System.out.println("\n \n");
     System.out.println("Java Programming Masterclass #1 - Primitive Types");
     System.out.println("------------------------------------------------- \n");
@@ -105,4 +105,5 @@ class PrimitiveTypes {
     System.out.println("myNewShortValue Value = " + myNewShortValue);
     System.out.println("------------------------------------------------- \n");
   }
+
 }
