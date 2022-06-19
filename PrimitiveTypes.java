@@ -104,5 +104,8 @@ class PrimitiveTypes {
         short myNewShortValue = (short) (myMinShortValue / 2);
         System.out.println("myNewShortValue Value = " + myNewShortValue);
         System.out.println("------------------------------------------------- \n");
+
+        System.out.println("Java Docs");
+        System.out.println("docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html");
     }
 }
