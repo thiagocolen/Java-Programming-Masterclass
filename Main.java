@@ -9,5 +9,7 @@ class Main {
     KeywordsAndExpressions myKeywordsAndExpressionsLesson = new KeywordsAndExpressions();
     myKeywordsAndExpressionsLesson.main();
 
+    MethodsChallenge myMethodsChallenge = new MethodsChallenge();
+    myMethodsChallenge.main();
   }
 }
