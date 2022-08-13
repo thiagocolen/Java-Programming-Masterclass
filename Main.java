@@ -11,5 +11,9 @@ class Main {
 
     MethodsChallenge myMethodsChallenge = new MethodsChallenge();
     myMethodsChallenge.main();
+
+    Exercises001 myExercises001 = new Exercises001();
+    myExercises001.main();
+
   }
 }
